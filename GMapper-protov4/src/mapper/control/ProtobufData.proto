@@ -1,0 +1,21 @@
+package pkg;
+
+option java_package="mapper.control";
+option java_outer_classname="ProtobufData";
+
+message QData{
+	optional int32 mapperFieldConfigId =1;
+	optional string colName =2;
+	optional string colType = 3;
+	optional string colValue = 4;
+	optional string action =5;
+	optional string targetType =6;
+	optional string targetName =7;
+	optional string targetObject = 8;
+	optional string targetPk = 9;
+	optional string targetPkType =10;
+	optional string time = 11;
+	optional string mapperLogic =12;
+	optional string targetDbType = 13;
+	
+}
